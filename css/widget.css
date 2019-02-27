@@ -1,0 +1,75 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css");
+/* *{margin:0;padding:0;box-sizing: border-box} */
+body{font-family:  Helvetica, Arial, sans-serif;
+    background:#1A1A1A !important;
+    position: relative;
+    min-width:960px;
+}
+
+.widget{
+    position:absolute;
+    top:1%;
+    right:5%;
+
+}
+
+.input-field{
+    width:65px;
+    font-size:12px !important;
+    color:#fff
+}
+.selectText{
+    color:#ccc;
+    margin-bottom: 0.2em;
+    font-size:10px;
+}
+.select-wrapper input.select-dropdown{
+    font-size:9px !important;
+    height:1.5em !important;
+    line-height:1.5em !important;
+    color:#ccc !important;
+}
+.select-wrapper input.select-dropdown:focus{
+    border-bottom:1px solid #fec40b !important;
+}
+.select-wrapper input.select-dropdown:focus.active1{
+    border-bottom:1px solid #218838 !important;
+}
+.select-wrapper input.select-dropdown:focus.active2{
+    border-bottom:1px solid #fec40b !important;
+}
+.select-wrapper input.select-dropdown:focus.active3{
+    border-bottom:1px solid #C82333 !important;
+}
+.select-wrapper input.select-dropdown:focus.active4{
+    border-bottom:1px solid #ccc !important;
+}
+.select-wrapper .caret{
+    fill:#ccc !important;
+}
+.dropdown-content li{
+    min-height:2em !important;
+    line-height: 2em !important
+}
+.dropdown-content li>a, .dropdown-content li>span{
+    font-size:12px !important;
+    padding:0px !important;
+    text-align: center !important;
+    line-height: 2em !important;
+    color:#424242 !important;
+}
+.dropdown-content li>a, .dropdown-content li>span:hover{
+    background-color:#fec40b !important
+}
+.lowGI{
+    transition:fill 1s linear;
+}
+.greenTxt{
+    fill:#218838
+}
+.yellowTxt{
+    fill:#fec40b
+}
+.redTxt{
+    fill:#C82333
+}
